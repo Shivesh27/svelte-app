@@ -1,7 +1,11 @@
+<script>
+    import { base } from "$app/paths";
+</script>
+
 <nav>
     <ul>
-        <li><a href="/">main</a></li>
-        <li><a href="/counter">Counter</a></li>
+        <li><a href="{base}/">main</a></li>
+        <li><a href="{base}/counter">Counter</a></li>
     </ul>
 </nav>
 
