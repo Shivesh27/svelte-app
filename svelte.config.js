@@ -16,7 +16,8 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			base: '/svelte-app'
-		}
+		},
+		trailingSlash: 'always'
 	}
 };
 
